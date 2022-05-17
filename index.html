@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0076359c68.js" crossorigin="anonymous"></script>
+    <title>stopper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <p class="info">
+            <i class="fas fa-question"></i>
+        </p>
+        <h1>Stoper</h1>
+        <p class="stopwatch">0:00</p>
+        <p class="time">0:00</p>
+        <div class="buttons">
+            <button class="start"><i class="fas fa-play"></i></button>
+            <button class="pause "><i class="fas fa-pause"></i></button>
+            <button class="stop "><i class="fas fa-stop"></i></button>
+            <button class="reset"><i class="fas fa-times"></i></button>
+            <button class="history">archive</button>
+        </div>
+        <ul class="time-list">
+        </ul>
+    </div>
+
+    <div class="modal-shadow">
+        <div class="modal">
+            <h3>Instruction:</h3>
+            <p><i class="fas fa-play"></i> - start</p>
+            <p><i class="fas fa-pause"></i> - pause</p>
+            <p><i class="fas fa-stop"></i> - stop</p>
+            <p><i class="fas fa-times"></i> - clear everything including archive</p>
+            <p><strong>archive</strong> - check lasts results</p>
+            <button class="close">close</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
